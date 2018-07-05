@@ -4,7 +4,7 @@
 
 var maxPop = 700;
 var mutationRate = 0.01;
-var target = "mom says hi"
+var target = "lol uw is shit"
 var bestPhrase = "";
 var bestFit = 0;
 var genNum = 1;
@@ -33,11 +33,10 @@ function refresh(){
 
 	document.getElementById("CurrentBest").innerText = "Current Best Fit: ".concat(bestPhrase);
 	document.getElementById("CurrentPopulation").innerText = prettyPrint(totPopulation); 
-	//no idea why, use inner text not inner HTML, prob a tag mistakenly appeared
 }
 
 function update(){
-	DNA.cross(totPopulation, DNA.newFitnessPop(totPopulation));//cross form new population
+	DNA.cross(totPopulation, DNA.newFitnessPop(totPopulation));//cross->form new population
 	DNA.mutate(totPopulation);//mutate population
 	if(bDone == true){//fitness check
 		clearInterval(interval);
