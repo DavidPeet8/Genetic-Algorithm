@@ -1,0 +1,36 @@
+/*
+Cascading style sheet for index.html
+- to make it a little less ugly and a little more readable
+*/
+
+.center{
+	text-align: center;
+}
+
+.leftAlign{
+	text-align: left;
+}
+
+.rightAlign{
+	text-align: right;
+}
+
+.currentBest{
+	position: fixed;
+	top: 2vh;/*distance from top not distance to top - like being pushed from that direction */
+	left: 50vw;
+}
+
+.whitespace{
+	white-space: pre;
+}
+
+.justify{
+	text-align: justify;
+}
+
+.currentPopulation{
+	position: fixed;
+	top: 10vh;/*distance from top not distance to top - like being pushed from that direction */
+	left: 60vw;
+}
