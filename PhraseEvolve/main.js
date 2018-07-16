@@ -4,7 +4,7 @@
 
 var maxPop = 700;
 var mutationRate = 0.01;
-var target = "lol uw is shit"
+var target = "my favourite food is steak"
 var bestPhrase = "";
 var bestFit = 0;
 var genNum = 1;
